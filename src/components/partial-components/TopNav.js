@@ -53,11 +53,11 @@ const TopNav = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link href="/about">關於我們</Nav.Link>
-                            <Nav.Link href="/admission-list">榮譽榜單</Nav.Link>
-                            <Nav.Link href="/news-list">最新消息</Nav.Link>
-                            <Nav.Link href="/course">課程規劃</Nav.Link>
-                            <Nav.Link href="/contact-us">聯絡我們</Nav.Link>
+                            <Link to="/about" className="nav-link" bsPrefix>關於我們</Link>
+                            <Link to="/admission-list" className="nav-link" bsPrefix>榮譽榜單</Link>
+                            <Link to="/news" className="nav-link" bsPrefix>最新消息</Link>
+                            <Link to="/course" className="nav-link" bsPrefix>課程規劃</Link>
+                            <Link to="/contact-us" className="nav-link" bsPrefix>聯絡我們</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
