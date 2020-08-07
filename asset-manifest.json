@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/minyin/static/css/main.6b076e44.chunk.css",
+    "main.js": "/minyin/static/js/main.af993b95.chunk.js",
+    "main.js.map": "/minyin/static/js/main.af993b95.chunk.js.map",
+    "runtime-main.js": "/minyin/static/js/runtime-main.b7e4ab9a.js",
+    "runtime-main.js.map": "/minyin/static/js/runtime-main.b7e4ab9a.js.map",
+    "static/css/2.ed439b8d.chunk.css": "/minyin/static/css/2.ed439b8d.chunk.css",
+    "static/js/2.1c646bd5.chunk.js": "/minyin/static/js/2.1c646bd5.chunk.js",
+    "static/js/2.1c646bd5.chunk.js.map": "/minyin/static/js/2.1c646bd5.chunk.js.map",
+    "index.html": "/minyin/index.html",
+    "precache-manifest.f9f0b51aa2fa0748d970b57f2e7b2ec1.js": "/minyin/precache-manifest.f9f0b51aa2fa0748d970b57f2e7b2ec1.js",
+    "service-worker.js": "/minyin/service-worker.js",
+    "static/css/2.ed439b8d.chunk.css.map": "/minyin/static/css/2.ed439b8d.chunk.css.map",
+    "static/css/main.6b076e44.chunk.css.map": "/minyin/static/css/main.6b076e44.chunk.css.map",
+    "static/js/2.1c646bd5.chunk.js.LICENSE.txt": "/minyin/static/js/2.1c646bd5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7e4ab9a.js",
+    "static/css/2.ed439b8d.chunk.css",
+    "static/js/2.1c646bd5.chunk.js",
+    "static/css/main.6b076e44.chunk.css",
+    "static/js/main.af993b95.chunk.js"
+  ]
+}
