@@ -31,7 +31,7 @@ const TopNav = () => {
                     <Col/>
                     <Col xs={9}>
                         <Navbar.Collapse id="responsive-navbar-nav">
-                            <Navbar.Brand href="/home">民音奧福文理補習班</Navbar.Brand>
+                            <Link to="/home" class="navbar-brand">民音奧福文理補習班</Link>
                             <Nav className="mr-auto">
                                 <Link to="/about" className="nav-link" bsPrefix>關於我們</Link>
                                 <Link to="/admission-list" className="nav-link" bsPrefix>榮譽榜單</Link>
@@ -50,7 +50,6 @@ const TopNav = () => {
             <div className="main-color">
                 <Navbar collapseOnSelectv  expand="lg" >
                     <Link to="/home" class="navbar-brand">民音奧福文理補習班</Link>
-
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
