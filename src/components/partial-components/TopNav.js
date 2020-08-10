@@ -49,7 +49,8 @@ const TopNav = () => {
         return (
             <div className="main-color">
                 <Navbar collapseOnSelectv  expand="lg" >
-                    <Navbar.Brand href="/home">民音奧福文理補習班</Navbar.Brand>
+                    <Link to="/home" class="navbar-brand">民音奧福文理補習班</Link>
+
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
