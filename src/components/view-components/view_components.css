@@ -15,4 +15,16 @@ img {
   height: auto;
 }
 
+.admission_list {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+
+.home {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
 /*# sourceMappingURL=view_components.css.map */
