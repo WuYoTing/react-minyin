@@ -4,7 +4,7 @@ import './App.scss';
 import {AppProvider} from "./AppContext";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
 import TopNav from "./components/partial-components/TopNav";
 import admission_list from "./components/view-components/admission_list";
 import home from "./components/view-components/home";
@@ -28,6 +28,7 @@ function App() {
                             <Col/>
                             <Col xs={8}>
                                 <Switch>
+                                    <Redirect exact from="/" to="/home"/>
                                     <Route path="/home" component={home}></Route>
                                     <Route path="/about" component={about}></Route>
                                     <Route path="/admission-list" component={admission_list}></Route>
